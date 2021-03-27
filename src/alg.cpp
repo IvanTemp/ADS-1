@@ -5,7 +5,7 @@ int cbinsearch(int *arr, int size, int value) {
     while (true)
     {
         mid = (right + left) / 2;
-        cout << "left = " << left << "; right = " << right << "; mid = " << mid << endl;
+        //cout << "left = " << left << "; right = " << right << "; mid = " << mid << endl;
         if (value < arr[mid])
         {
             right = mid - 1;
